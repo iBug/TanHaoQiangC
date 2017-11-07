@@ -1,4 +1,5 @@
 // File: 3.6.c
+// Author: iBug
 
 #include <stdio.h>
 
