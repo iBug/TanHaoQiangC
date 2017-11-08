@@ -11,7 +11,7 @@ int main(){
 		ch = getchar();
 		if (ch == '!') break;
 		if (ch >= 'a' && ch <= 'z'){
-			ch -= 'a' - 'A';
+			ch = ch - 'a' + 'A';
 		}
 		fputc(ch, out);
 	}
