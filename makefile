@@ -3,7 +3,7 @@
 SRCS = $(wildcard *.c)
 OBJS = $(patsubst %.c, %, $(SRCS))
 CC := gcc
-CFLAGS := $(CFLAGS) -O3 -s -Wall -pie
+CFLAGS := $(CFLAGS) -O3 -Wall -s
 
 all: $(OBJS)
 
