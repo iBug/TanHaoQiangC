@@ -1,7 +1,7 @@
 .PHONY: all clean
 
-SRC = $(wildcard *.c)
-OBJS = $(SRCS:.c=)
+SRCS = $(wildcard *.c)
+OBJS = $(patsubst %.c, %, $(SRCS))
 CC := gcc
 CFLAGS = $(CFLAGS) -O3 -s -Wall -pie
 
@@ -11,4 +11,4 @@ all: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $<
 
 clean:
-	rm -f $OBJS
+	rm -f $(OBJS)
