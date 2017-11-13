@@ -19,7 +19,7 @@ int gcd(int m, int n){
 }
 
 int lcm(int m, int n){
-	return m * n * gcd(m, n);
+	return m * n / gcd(m, n);
 }
 
 int main(){
