@@ -1,7 +1,6 @@
 // File: 6.11.c
 // Author: iBug
 
-
 #include <stdio.h>
 
 int main(){
