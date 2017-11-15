@@ -7,6 +7,6 @@
 - [iBug](https://github.com/iBug)@GitHub
 - [TaoKY](https://github.com/taoky)@GitHub
 
-你还可以查看[我的Stack Overflow资料][so]。
+你还可以查看[我的Stack Overflow资料][so]，以确认我只是闲着无聊做这个。不过如果有什么错误，还是欢迎提交Issue的。
 
   [so]: https://stackoverflow.com/users/5958455/ibug
