@@ -7,4 +7,6 @@
 - [iBug](https://github.com/iBug)@GitHub
 - [TaoKY](https://github.com/taoky)@GitHub
 
-如果你有好的想法，欢迎提交PR。
+你还可以查看[我的Stack Overflow资料][so]。
+
+  [so]: https://stackoverflow.com/users/5958455/ibug
