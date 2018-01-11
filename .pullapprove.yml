@@ -1,6 +1,6 @@
 version: 2
 groups:
-  code-review:
+  code-admins:
     approve_by_comment:
       approve_regex: ^\/approve
       enabled: true
