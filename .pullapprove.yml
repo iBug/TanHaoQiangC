@@ -2,12 +2,14 @@ version: 2
 groups:
   code-review:
     approve_by_comment:
-      approve_regex: ^/approve
+      approve_regex: ^\/approve
       enabled: true
-      reject_regex: ^/reject
+      reject_regex: ^\/reject
     required: 1
     reset_on_push:
       enabled: true
+    author_approval:
+      ignored: true
     users:
     - iBug
     - taoky
