@@ -5,12 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int getFileSize(FILE *f){
-	fseek(f, 0, SEEK_END);
-	int size = ftell(f);
-	fseek(f, 0, SEEK_SET);
-	return size;
-}
+int getFileSize(FILE *);
 
 int main(){
 	char *str[2];
@@ -33,4 +28,11 @@ int main(){
 	fclose(fb);
 	fclose(fc);
 	return 0;
+}
+
+int getFileSize(FILE *f){
+	fseek(f, 0, SEEK_END);
+	int size = ftell(f);
+	fseek(f, 0, SEEK_SET);
+	return size;
 }
